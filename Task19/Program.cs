@@ -17,7 +17,7 @@ bool GetAnswer(int num)
 return num / 10000 == num % 10 && num / 1000 % 10 == num / 10 % 10;
 }
 
-Console.Write("Введите пятизначное положительное натуральное число: ");
+Console.Write("Введите пятизначное положительное натуральное число:  ");
 int Number = Convert.ToInt32(Console.ReadLine());
 
 while (Number < 0 || Number > 99999 || Number < 10000)
